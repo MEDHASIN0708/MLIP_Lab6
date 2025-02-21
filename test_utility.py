@@ -37,4 +37,4 @@ def feature_target_sample(housing_data_sample):
 
 def test_data_split(feature_target_sample):
     return_tuple = data_split(*feature_target_sample)
-    assert ( return_tuple) == 4
+    assert len(return_tuple) == 4
